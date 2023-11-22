@@ -52,7 +52,6 @@ export default class App extends Component {
 
   render() {
     const filteredContacts = this.handleFilterContacts();
-    console.log(filteredContacts);
     return (
       <div>
         <Section title={'PhoneBook'}>
